@@ -6,8 +6,8 @@
 document.getElementById("mh1").textContent="hello";
 document.getElementById("mh1").append(' from js ');
 document.getElementById("p1").textContent='hello i love  hello';
-
-document.getElementById("p1").append("'<strong>'hello from js'<strong>' ");
+let price1=4
+document.getElementById("p1").append(`'${price1} hello from js `);
 
 //
 let x1=23;
@@ -28,6 +28,7 @@ console.log(`hello mark ${age}`);
             return console.log(total1)
 
         }
+    
 sum1(5);
 
 
