@@ -12,5 +12,9 @@ let Pname='almed';
 
 
 let PI =3.1415;
+let job1= 'IT ';
+let job2 ='programmer';
+let job3='MultiTask';
+
 
 
