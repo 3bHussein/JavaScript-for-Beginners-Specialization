@@ -1,6 +1,6 @@
-console.log("hello");
-console.log("i like C#");
-window.alert("hell");
+// console.log("hello");
+// console.log("i like C#");
+// window.alert("hell");
 
 
 document.getElementById("mh1").textContent="hello";
@@ -15,7 +15,22 @@ let x1=23;
 var x3=4;
 console.log(x3);
 // window.append(x3);
-window.alert(typeof(x3));
+// window.alert(typeof(x3));
 let age =25;
 let price =300;
 console.log(`hello mark ${age}`);
+
+
+
+        function sum1(x){
+
+            total1 =x+9;
+            return console.log(total1)
+
+        }
+sum1(5);
+
+
+
+
+    

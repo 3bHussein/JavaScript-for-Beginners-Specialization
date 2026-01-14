@@ -89,6 +89,18 @@
 
 
 
+        function sum1(x){
+
+            total1 =x+5;
+            return console.log(total1);
+
+        }
+sum1(5);
+
+
+console.log(total1);
+
+    
 
 
 
