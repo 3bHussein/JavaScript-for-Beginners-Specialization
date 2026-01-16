@@ -57,4 +57,4 @@ else{
 }
 document.getElementById('p1').append(` +x1 = ${x1}`);
 
-console.log("hello")
+// console.log("hello");
