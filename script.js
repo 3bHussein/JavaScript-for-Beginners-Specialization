@@ -56,3 +56,5 @@ else{
     console.log(`bro it's wrong `)
 }
 document.getElementById('p1').append(` +x1 = ${x1}`);
+
+console.log("hello")
