@@ -73,4 +73,17 @@ document.getElementById('p1').append(` +x1 = ${x1}`);
  }
 //  console.log(BMIMark,BMIjohn)
 
- console.log(`mark ${BMIMark},john ${BMIjohn}`)
+//  var v= console.log(`mark ${BMIMark},john ${BMIjohn}`);
+ var v= BMIjohn;
+
+//  toString(v);
+document.getElementById('p1').append('\n');
+
+document.getElementById('p1').append("this number for John's BMI",v);
+
+const new_age =19;
+if (age =>18) {
+    console.log("Sarah can starting driving License");
+}
+
+
