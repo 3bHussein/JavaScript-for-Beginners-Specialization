@@ -87,3 +87,47 @@ if (age =>18) {
 }
 
 
+
+const inputYear ='1991';
+TinputYear=Number(inputYear);
+console.log(typeof(inputYear),typeof(TinputYear));
+//will make issue if not convert it into number
+console.log(New_num=inputYear+5);
+
+console.log(New_num=TinputYear+5);
+// to convert into String
+
+STinputYear=String(TinputYear);
+console.log(typeof(STinputYear)+` that one after convert it`);
+// only work with - * / i mean JS convert into number
+console.log('23'-'10'+3);
+let n =1 +'1';
+// string will be 
+console.log(typeof(n));
+n =n-1;
+// Number will be 
+console.log(typeof(n));
+
+
+// boolean
+let num_to_Bool=0;
+console.log(typeof(num_to_Bool)); //will get number type
+
+console.log(Boolean(num_to_Bool)); //will get flase type
+let height; //number didn't assgin any value
+if (height) { //here will equal if height ture =1
+    console.log('height is defined')
+
+}
+else{
+    console.log('height is undefined')
+}
+
+
+
+
+
+
+
+const new_age1= 18;
+if(new_age1===18) console.log("wow "); //===will compere number to number ==will look for type of value 
