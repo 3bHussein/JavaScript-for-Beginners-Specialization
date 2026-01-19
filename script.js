@@ -56,4 +56,21 @@ else{
     console.log(`bro it's wrong `)
 }
 document.getElementById('p1').append(` +x1 = ${x1}`);
- 
+ const massMark=95;
+ const heightMark=1.88;
+ const massjohn = 85;
+ const heightjohn = 1.76;
+
+ var BMIMark = massMark/heightMark **2;
+ var BMIjohn = massjohn/heightjohn **2;
+ if (BMIjohn>BMIMark) {
+    console.log(
+    'john in best'
+    )
+ }
+ else{
+    console.log("mark is best")
+ }
+//  console.log(BMIMark,BMIjohn)
+
+ console.log(`mark ${BMIMark},john ${BMIjohn}`)
