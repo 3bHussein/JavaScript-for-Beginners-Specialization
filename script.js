@@ -131,3 +131,11 @@ else{
 
 const new_age1= 18;
 if(new_age1===18) console.log("wow "); //===will compere number to number ==will look for type of value 
+
+
+const array_test=[
+    ['ali',15],
+    ['ahmed',23]
+]
+
+console.log(array_test[0][1]);
