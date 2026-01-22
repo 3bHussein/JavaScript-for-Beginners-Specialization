@@ -140,3 +140,4 @@ const array_test=[
 
 console.log(array_test[0][1]);
 console.log(array_test[0][0]);
+console.log(array_test[0][1]);
