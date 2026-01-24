@@ -1,1 +1,1 @@
-# JavaScript-for-Beginners-Specialization
+# JavaScript-for-Beginners-Specialization.
